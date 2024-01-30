@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+ /* ---- Head Container css started ----*/
+
+.headDetailContainer{
+    background-color: none;
+    margin-top: 70px;
+}
+
+.headTitleDiv{
+    background-color: none;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.headTitleDiv h1{
+    margin: 0;
+}
+
+.headTitleDiv p{
+    color: #585a5d;
+}
+
+
+
+
+.billButtonDiv{
+    background-color: none;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.billButtonDiv p:first-child{
+    color: #ffb700;
+    font-weight: 700;
+    margin: 0;
+}
+
+.billButtonDiv p:last-child{
+    color: #28cc8b;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ---- switch button css started ----*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffb700;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #28cc8b;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #28cc8b;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* ---- switch button css ended ----*/
+
+  /* ---- Head Container css ended ----*/
+
+
+
+  /* ---- Price Container css started ----*/
+
+  .priceContainer{
+    background-color: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    gap: 40px;
+  }
+
+  .priceCard{
+    background-color: #ffffff;
+    width: 250px;
+    height: 550px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+  }
+
+  .priceCard.active{
+    display: block;
+    opacity: 1;
+  }
+
+  .priceCard h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2b2b2c;
+  }
+
+  .priceCard .title{
+    color: #28cc8b;
+  }
+
+  .priceCard .monthlyTitle{
+    color: #ffb700;
+  }
+
+  .priceCard span{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .perUser{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 0.9rem;
+    color: #585a5d;
+    font-weight: 600;
+  }
+
+  .priceInfoDiv{
+    background-color: none;
+    text-align: center;
+  }
+
+  .priceInfoDiv p{
+    font-size: 0.9rem;
+    color: #939ba5;
+  }
+
+  .priceDetailsDiv{
+    background-color: none;
+    margin-top: 40px;
+  }
+
+  .detailsLine{
+    background-color: none;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .detailsLine img{
+    width: 15px;
+  }
+
+  .detailsLine p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+    color: #585a5d;
+  }
+
+  .priceButtonDiv{
+    background-color: none;
+    width: 85%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+  }
+
+  .priceButtonDiv .button1{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #28cc8b;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #28cc8b;
+  }
+
+  .priceButtonDiv .button1:hover{
+    cursor: pointer;
+    background-color: #28cc8b;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .priceButtonDiv .button2{
+    width: 200px;
+    height: 40px;
+    background-color: #28cc8b;
+    border: 2px solid #28cc8b;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .priceButtonDiv .button2:hover{
+    cursor: pointer;
+    background-color: #1b9d69;
+    border: 2px solid #28cc8b;
+    transition: background-color 0.3s ease;
+  }
+
+  .priceButtonDiv .monthlyButton1{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #ffb700;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #ffb700;
+  }
+
+  .priceButtonDiv .monthlyButton1:hover{
+    cursor: pointer;
+    background-color: #ffb700;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .priceButtonDiv .monthlyButton2{
+    width: 200px;
+    height: 40px;
+    background-color: #ffb700;
+    border: 2px solid #ffb700;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .priceButtonDiv .monthlyButton2:hover{
+    cursor: pointer;
+    background-color: #d19600;
+    border: 2px solid #ffb700;
+    transition: background-color 0.3s ease;
+  }
+
+
+  /* ---- Price Container css Ended ----*/
+
+
+
+
+
+
+
+
+  /*---- Media Query 1000px ----*/
+@media (max-width: 1000px)
+{
+    .priceContainer{
+        grid-template-columns: auto auto;
+      }
+}
+
+  /*---- Media Query 650px ----*/
+@media (max-width: 650px)
+{
+    .priceContainer{
+        grid-template-columns: auto;
+      }
+}
