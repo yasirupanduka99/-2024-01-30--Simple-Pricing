@@ -15,7 +15,7 @@ Check out the live demo of this template here. https://simplepricing.netlify.app
 
 ## Screenshots
 
-https://drive.google.com/file/d/11-R1tapHPqipgMKBPprpbG2K7IpqOmdF/view?usp=drive_link
+<img src="https://drive.google.com/file/d/11-R1tapHPqipgMKBPprpbG2K7IpqOmdF/view?usp=drive_link" >
 ![Screenshot 2](screenshots/screenshot2.png)
 
 ## Installation
