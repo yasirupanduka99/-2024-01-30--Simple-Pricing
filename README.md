@@ -15,9 +15,9 @@ Check out the live demo of this template here. https://simplepricing.netlify.app
 
 ## Screenshots
 
-<iframe src="https://drive.google.com/file/d/11-R1tapHPqipgMKBPprpbG2K7IpqOmdF/preview" width="640" height="480" allow="autoplay"></iframe>
-<iframe src="https://drive.google.com/file/d/1RwnulrzXjbXAfA4crH6IOs5jEEbH_F_E/preview" width="640" height="480" allow="autoplay"></iframe>
-<iframe src="https://drive.google.com/file/d/1rf8979XhcnDsuW8DhkWa5y6wlLbeSs4j/preview" width="640" height="480" allow="autoplay"></iframe>
+![Screenshot 1](https://drive.google.com/uc?export=view&id=11-R1tapHPqipgMKBPprpbG2K7IpqOmdF)
+![Screenshot 2](https://drive.google.com/uc?export=view&id=1RwnulrzXjbXAfA4crH6IOs5jEEbH_F_E)
+![Screenshot 2](https://drive.google.com/uc?export=view&id=1rf8979XhcnDsuW8DhkWa5y6wlLbeSs4j)
 
 ## Installation
 
